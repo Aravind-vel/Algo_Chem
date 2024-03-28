@@ -1,4 +1,4 @@
-# Algo_Chem
+# Multi-objective Optimization solvers comparison
 
 ## A Chemist's Guide to Multi-Objective Optimization Solvers for Reaction Optimization
 
