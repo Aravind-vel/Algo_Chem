@@ -15,7 +15,7 @@ n_cat_lev = 1; % levels of the categorical variables; put 1 if n_dis_var = 0
 n_lhs = 5; % lhs samples per level of categorical variable
 
 % getting mat files automatically using key name
-model_name = 'ethanolamine';
+model_name = 'reizman_1';
 
 % Use '.' for current directory or provide a full path
 folderPath = './results in mat file';
@@ -25,9 +25,9 @@ files = dir(folderPath);
 
 filtered_files = files(contains({files.name}, model_name));
 
-% Define the order of the prefixes
-prefix_order = {'MVMOO', 'EDBO', 'Dragonfly_1m', 'Dragonfly_linear', 'TSEMO', 'EIMEGO'};
-% prefix_order = {'MVMOO', 'EDBO', 'Dragonfly_1m', 'Dragonfly_linear'};
+% Define the order of the prefixes - Choose the appropriate solvers for which the results are to be compared.
+prefix_order = {'MVMOO', 'EDBO', 'Dragonfly_1m', 'Dragonfly_linear', 'TSEMO', 'EIMEGO'}; % for only continuous variables
+% prefix_order = {'MVMOO', 'EDBO', 'Dragonfly_1m', 'Dragonfly_linear'}; % for continuous and categorical variables
 
 % Initialize an array to hold the sorted file names
 sorted_files = strings(0);
