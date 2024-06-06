@@ -6,6 +6,10 @@ Authors: Aravind Senthil Vel, Daniel Cortes-Borda, and Francois-Xavier Felpin
 
 Affiliation: Nantes Université, CNRS, CEISAM UMR 6230, 2 rue de la Houssinière, 44322 Nantes, France.
 
+Citation: [React. Chem. Eng., 2024, doi.org/10.1039/D4RE00175C ](https://pubs.rsc.org/en/content/articlelanding/2024/re/d4re00175c)
+
+
+
 ---
 
 ## Overview
